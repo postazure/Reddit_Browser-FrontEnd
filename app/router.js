@@ -7,6 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('posts', {path: "/r/:subreddit_name"});
+  this.route('search', {path: "/search/:query"});
 });
 
 export default Router;
