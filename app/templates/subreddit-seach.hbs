@@ -1,0 +1,7 @@
+<h2>Subbreddit Search</h2>
+{{#each subreddit in model}}
+<div>
+  {{link-to subreddit.data.title "posts" subreddit.data.display_name}}
+</div>
+  
+{{/each}}

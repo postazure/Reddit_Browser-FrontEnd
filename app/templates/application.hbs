@@ -1,4 +1,7 @@
 <h2 id="title">ReddThat</h2>
-{{link-to "Soccer" "posts" "soccer"}} |
-{{link-to "Ember" "posts" "emberjs"}}
+<div>
+  {{input type="text" value=searchQuery placeholder="Search"}} in
+  <button {{action "searchPosts"}}>Posts</button>
+  <button {{action "searchSubreddits"}}>Subredits</button>
+</div>
 {{outlet}}
